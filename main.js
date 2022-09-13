@@ -16,7 +16,8 @@ for ( let sorrentino of sorrentinos){
     productos.innerHTML = `
     <h2>Sorrentinos</h2>
     <h3>${sorrentino.sabor}</h3> 
-    <h4>${sorrentino.precio}</h4> 
+    <h4>${sorrentino.precio}</h4>
+    <button>COMRPAR</button>
     ` ;
     main.appendChild(productos);
 }
